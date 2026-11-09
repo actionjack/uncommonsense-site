@@ -1,0 +1,29 @@
+# Uncommon Sense
+
+> Uncommon Sense Consulting Limited is the consultancy of Martin Jackson, a fractional CTO and board adviser based in Watford, UK. He helps founders, boards and makers with strategy, technology and AI decisions that hold up under scrutiny.
+
+## Services
+
+- Fractional CTO: senior technical leadership a few days a month. Architecture, hiring, delivery and the decisions a team is waiting on.
+- Board advisory: an independent technical voice on the board. Plain-English reads on technology risk, spend and plans.
+- AI governance and assurance: evidence gates before an AI feature ships. What it must prove, who signs it off, and what happens when it drifts.
+
+## Who it is for
+
+- Founders who are the bottleneck on technical decisions.
+- Boards asked to approve technology and AI plans they cannot easily test.
+- Makers, charities and small teams who need practical, budget-sized technology advice.
+
+## Contact
+
+- Book a 30-minute call: https://calendly.com/martin-uncommonsense-uk/30min
+- Email: martin@uncommonsense-uk.com
+- LinkedIn: https://www.linkedin.com/in/uncommonsense
+
+## Pages
+
+- [Home](https://uncommonsense-uk.com/): services, approach and frequently asked questions.
+
+## Company
+
+- Uncommon Sense Consulting Limited, registered in England and Wales, company number 06878365.
