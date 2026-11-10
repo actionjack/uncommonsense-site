@@ -23,6 +23,23 @@
 ## Pages
 
 - [Home](https://uncommonsense-uk.com/): services, approach and frequently asked questions.
+- [Writing](https://uncommonsense-uk.com/writing/): Martin's best-read posts, each on its own page.
+
+## Writing
+
+<!-- writing:start -->
+- [Bread crumbing](https://uncommonsense-uk.com/writing/bread-crumbing/): "Explain it to me as if I was a cocker spaniel." I sometimes say that. It usually comes after the fourth or fifth message. I ask a question.
+- [Rent forever](https://uncommonsense-uk.com/writing/rent-forever/): A while back I wanted to run an Oracle database on a VMware cluster. The point of the cluster was simple.
+- [The clones that had an answer key](https://uncommonsense-uk.com/writing/artcraft-answer-key/): The story going round is that someone vibe coded Photoshop.
+- [When the picture looked right](https://uncommonsense-uk.com/writing/when-the-picture-looked-right/): "Stop." I said it to the AI assistant I was using to design a card for a maker's stall.
+- [The log that cannot be edited afterwards](https://uncommonsense-uk.com/writing/log-that-cannot-be-edited/): When AI writes code no human will read, review stops being a control. What survives is evidence of behaviour. I posted that three weeks ago.
+- [It's very expensive](https://uncommonsense-uk.com/writing/its-very-expensive/): "It's very expensive." That is what the stallholder said to me, before I had even mentioned the price. I had picked up a crochet belt on their stall.
+- [The bottleneck moved](https://uncommonsense-uk.com/writing/bottleneck-moved/): I've discovered an unexpected productivity problem in 2026. I'm increasingly waiting for AI to finish its work.
+- [When someone refused my first answer](https://uncommonsense-uk.com/writing/refuse-the-first-answer/): "If you were 28 like me, with what you know now, what would you be doing?" Orji Matthew asked me that in a LinkedIn message this week, from Abuja.
+- [The decision problem](https://uncommonsense-uk.com/writing/decision-problem/): Most engineering organisations I see don't have a delivery problem. They have a decision problem.
+- [Judgement over execution](https://uncommonsense-uk.com/writing/judgement-over-execution/): Dropping my own recommendation was the best decision I made for a client this summer. My diagnosis was correct. One person's hours limited their output.
+- [The AI Act deadline that did not snooze](https://uncommonsense-uk.com/writing/ai-act-snooze/): Nearly four weeks ago, parts of the EU AI Act still became applicable. The high-risk deadlines moved. Others did not.
+<!-- writing:end -->
 
 ## Company
 

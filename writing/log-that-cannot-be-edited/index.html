@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The log that cannot be edited afterwards | Martin Jackson, Uncommon Sense</title>
+<meta name="description" content="When AI writes code no human will read, review stops being a control. What survives is evidence of behaviour. I posted that three weeks ago.">
+<link rel="canonical" href="https://uncommonsense-uk.com/writing/log-that-cannot-be-edited/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1A1A1A">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Uncommon Sense">
+<meta property="og:title" content="The log that cannot be edited afterwards">
+<meta property="og:description" content="When AI writes code no human will read, review stops being a control. What survives is evidence of behaviour. I posted that three weeks ago.">
+<meta property="og:url" content="https://uncommonsense-uk.com/writing/log-that-cannot-be-edited/">
+<meta property="og:image" content="https://uncommonsense-uk.com/assets/writing/log-that-cannot-be-edited.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Quicksand:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The log that cannot be edited afterwards",
+  "description": "When AI writes code no human will read, review stops being a control. What survives is evidence of behaviour. I posted that three weeks ago.",
+  "datePublished": "2026-10-08",
+  "url": "https://uncommonsense-uk.com/writing/log-that-cannot-be-edited/",
+  "mainEntityOfPage": "https://uncommonsense-uk.com/writing/log-that-cannot-be-edited/",
+  "image": "https://uncommonsense-uk.com/assets/writing/log-that-cannot-be-edited.jpg",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Person",
+    "@id": "https://uncommonsense-uk.com/#martin",
+    "name": "Martin Jackson",
+    "url": "https://uncommonsense-uk.com/"
+  },
+  "publisher": {
+    "@id": "https://uncommonsense-uk.com/#business"
+  },
+  "keywords": "AI assurance"
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a href="/"><img src="/assets/logo.svg" alt="Uncommon Sense home" width="130" height="56"></a>
+    <ul>
+      <li><a href="/#services">Services</a></li>
+      <li><a href="/#approach">Approach</a></li>
+      <li><a href="/#faq">FAQ</a></li>
+      <li><a href="/writing/">Writing</a></li>
+      <li><a class="btn btn-blue" href="https://calendly.com/martin-uncommonsense-uk/30min">Book a 30-minute call</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<article class="section white article">
+  <div class="wrap article-wrap">
+    <p class="eyebrow"><a href="/writing/">Writing</a> · AI assurance</p>
+    <h1>The log that cannot be edited afterwards</h1>
+    <p class="byline">Martin Jackson · <time datetime="2026-10-08">8 October 2026</time></p>
+    <figure class="article-hero"><img src="/assets/writing/log-that-cannot-be-edited.jpg" alt="A stack of white printed pages with rows of timestamped log lines sits inside a clear plastic bag on a steel table, its red strip labelled SEALED with the number 0047283."></figure>
+    <div class="article-body">
+<p>When AI writes code no human will read, review stops being a control. What survives is evidence of behaviour.</p>
+<p>I posted that three weeks ago. Then a Hacker News thread from June landed in my inbox. Someone had already built the plumbing for exactly that, and it got four upvotes.</p>
+<p>It is a plugin for an AI coding agent. It writes every prompt, tool call, result and refused action into a local database, then hashes them into a tree so editing or deleting any event afterwards is detectable. One command checks the trail and tells you whether it has been touched.</p>
+<p>Not a changelog. A changelog is what someone says happened. This is what happened, with a check on whether anyone rewrote it afterwards.</p>
+<p>I have not run it. I read the README and the thread, so treat these as reviewer's notes, not a verdict.</p>
+<p>The first auditor to sit down with it would ask three things.</p>
+<p>It fails open. If the database is unavailable, events are dropped silently and the agent carries on. An audit trail that goes quiet without saying so is a diary. The gap has to be recorded, or the agent has to stop.</p>
+<p>It proves consistency, not time. The hashes catch an edit to the trail. They do not catch someone rebuilding the trail and the hashes together, and they say nothing about when any of it was written. Only anchoring those hashes somewhere outside the machine does that, and in this design that step is optional. The link an auditor needs most is the easiest one to skip.</p>
+<p>It records the agent, not the release. The trail says what the agent did. It does not say that the code now running in production is what the trail describes. Every commit that reaches main should carry the hash of the trail that produced it. Without that, the two are just neighbours.</p>
+<p>None of this is a knock on someone who built the thing and put it in front of strangers. It is the first time I have seen anyone build the "prove it" half of this rather than talk about it.</p>
+<p>What has your team kept as proof of what its coding agents did, if anything?</p>
+<p>Hey, let's be careful out there.</p>
+    </div>
+    <p class="origin">First published on LinkedIn on 8 October 2026.</p>
+  </div>
+</article>
+
+<section class="section contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="contact-copy">
+      <h2 id="contact-h">Have a decision that needs a second pair of eyes?</h2>
+      <p>Thirty minutes, no pitch. You leave with a clearer next step either way.</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn btn-dark" href="https://calendly.com/martin-uncommonsense-uk/30min">Book a 30-minute call</a>
+      <a href="mailto:martin@uncommonsense-uk.com">martin@uncommonsense-uk.com</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img src="/assets/logo-white.svg" alt="Uncommon Sense" width="121" height="52">
+    <p>Uncommon Sense Consulting Limited · Registered in England and Wales, company number 06878365 · <a href="https://www.linkedin.com/in/uncommonsense">LinkedIn</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

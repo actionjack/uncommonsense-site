@@ -10,6 +10,17 @@ The Uncommon Sense website. Plain HTML and CSS, no build step, hosted free on Gi
 - Client quotes: the "What people say" section is commented out in `index.html` until there are
   three real, agreed quotes.
 
+## Writing pages
+
+- Each post is a file in `posts/` (front-matter format at the top of `build.py`), with its image
+  in `assets/writing/`. Run `python3 build.py` after any change: it rebuilds `writing/`, the three
+  newest cards on the home page, `sitemap.xml` and the Writing list in `llms.txt`. Do not edit
+  those generated parts by hand.
+- Which posts go up is decided by the daily LinkedIn performance check: posts at least 7 days old
+  with 200+ impressions and 2+ reactions and comments, or 100+ impressions at a 3.5%+ rate. It
+  adds the files and builds, but never commits. Review with `git status`, then commit and push.
+- The text is the post as published on LinkedIn, word for word, hashtags removed.
+
 ## Publish on GitHub Pages
 
 1. Create a public repo on GitHub and push this folder to `main`.
