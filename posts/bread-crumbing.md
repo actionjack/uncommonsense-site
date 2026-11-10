@@ -3,6 +3,8 @@ title: Bread crumbing
 date: 2026-11-02
 tag: Leadership
 description: "Explain it to me as if I was a cocker spaniel." I sometimes say that. It usually comes after the fourth or fifth message. I ask a question.
+image: bread-crumbing.jpg
+alt: A cocker spaniel sits on a kitchen floor, head tilted, looking at a scattered trail of bread crumbs.
 ---
 "Explain it to me as if I was a cocker spaniel."
 
