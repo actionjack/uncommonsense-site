@@ -36,6 +36,8 @@ The Uncommon Sense website. Plain HTML and CSS, no build step, hosted free on Gi
 
 ## Get found by search and AI tools
 
+- After a push has deployed, run `python3 indexnow.py` to tell Bing and the other IndexNow engines
+  about every URL in the sitemap. The key file is the 32-character `.txt` at the root; keep it.
 - Add the site to Google Search Console and Bing Webmaster Tools and submit `sitemap.xml`.
   Bing matters for AI: ChatGPT search and Copilot draw on its index.
 - Link the site from the LinkedIn profile (Contact info > Website) and the company page.
