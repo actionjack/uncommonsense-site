@@ -19,7 +19,9 @@ The Uncommon Sense website. Plain HTML and CSS, no build step, hosted free on Gi
 - Which posts go up is decided by the daily LinkedIn performance check: posts at least 7 days old
   with 200+ impressions and 2+ reactions and comments, or 100+ impressions at a 3.5%+ rate. It
   adds the files and builds, but never commits. Review with `git status`, then commit and push.
-- The text is the post as published on LinkedIn, word for word, hashtags removed.
+- The text is the post as published on LinkedIn, word for word, hashtags removed. The one
+  exception: a joke or aside that could read as dismissive of a group when quoted out of context
+  is cut (deletion only, never reworded) and recorded as `site_edit:` in the post's front matter.
 
 ## Publish on GitHub Pages
 

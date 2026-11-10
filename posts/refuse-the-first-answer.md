@@ -6,12 +6,13 @@ description: "If you were 28 like me, with what you know now, what would you be 
 image: refuse-the-first-answer.jpg
 alt: Two hands rest on an old wooden table in warm light: one hand flat on a sheet of handwritten paper, the other open and held out palm up toward it.
 linkedin: https://www.linkedin.com/feed/update/urn:li:activity:7507448510036848640/
+site_edit: cut "avoiding women and" from the joke line (website content check, 10 Nov 2026); LinkedIn text unchanged
 ---
 "If you were 28 like me, with what you know now, what would you be doing?"
 
 Orji Matthew asked me that in a LinkedIn message this week, from Abuja.
 
-My first answer was a joke. Something about avoiding women and working hard every day.
+My first answer was a joke. Something about working hard every day.
 
 They didn't take it.
 
