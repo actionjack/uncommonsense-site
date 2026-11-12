@@ -107,6 +107,7 @@ HEAD = """<!doctype html>
 <script type="application/ld+json">
 {jsonld}
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "bb5d993453f34cdc9aaf4699ba7a2c94"}}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 <body>
 
